@@ -1,0 +1,272 @@
+body{
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin: 0;
+    
+}
+
+#main-header{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; 
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+#main-header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 17px;
+    margin-top: 15px;
+}
+
+nav ul .rightnav{
+    float: right;
+}
+nav ul .rightnav a{
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.container .illustration{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
+
+.container .heading1{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700px;
+}
+
+.but1 .button1{
+    background-color: hsl(176, 68%, 64%);
+    border: none;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    width: 240px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+#firstsection{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 70px;
+    row-gap: 20px;
+    padding: 15px;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.section{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+#secondsection{
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.flex1_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    box-sizing: border-box;
+}
+
+#secondsection .aside-text{
+    margin-top: 120px;
+}
+
+
+
+.contain{
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+.testimony p .fill-images{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+}
+
+.testimony p img{
+    width: 25px;
+    border-radius: 100px;
+    display: inline;
+}
+.testimony p .fill-images span{
+    float: right;
+}
+
+
+
+.flex_container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    column-gap: 15px;
+    align-items: stretch;
+}
+
+.flex_container2 .testimony{
+    border: 5px white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px;
+    background-color: hsl(219, 30%, 18%);
+
+}
+
+
+#flyoworks a{
+    color:  hsl(176, 68%, 64%);
+    text-decoration: none;
+  }
+  
+
+  .early_access{
+  background-color: hsl(217, 28%, 15%);
+  text-align: center;
+  padding: 20px;
+  width: 50%;
+  margin-top: 200px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.early_access .register{
+    padding: 0%;
+    margin: 0;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.input{
+  width: 50%;
+  padding: 15px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-top: 25px;
+}
+
+.button2{
+  background-color: hsl(176, 68%, 64%);
+  border: none;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 35%;
+  border-radius: 20px;
+  margin-left: 25px;
+  margin-right: auto;
+}
+
+.register .flex-register span{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+#main-footer{
+    background-color: hsl(216, 53%, 9%);
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+}
+
+.needed{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_logo img{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.footer_container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 15px;
+    margin-left: 70px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.foot p span{
+    display: inline;
+    margin-left: 10px;
+}
+.foot p img{
+    display: inline-block;
+}
+
+.foot ul li span{
+    margin-left: 15px;
+}
+
+.foot icon_inline{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.foot .icon_inline li img{
+    width: 30px;
+    display: inline-block;
+}
+.foot .icon_inline li{
+    display: inline-block;
+}
