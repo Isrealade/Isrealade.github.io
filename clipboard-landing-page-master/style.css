@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top 0px;
+    font-size: 18px;
+}
+
+.text{
+    margin: 50px auto 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.text p{
+    margin-top: 20px;
+}
+
+.button{
+    margin-top: 25px;
+}
+
+button{
+    width: 180px;
+    padding: 13px;
+    border-radius: 30px;
+}
+
+header{
+    margin: 100px auto;
+    text-align: center;
+    width: 50%;
+}
+
+header .text p{
+    margin-top: 20px;
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 6em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.section1 .image img{
+    width: 600px;
+    margin-left: -50px;
+}
+
+.section1 .section1-texts{
+    justify-content: start;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3em;
+    /* padding-right: 50px; */
+    text-align: left;
+    padding-right: 180px;
+}
+
+.section1 .section1-texts .section-text h3{
+
+}
+
+.section1 .section1-texts .section-text p{
+    margin-top: 5px;
+    padding-right: 180px;
+}
+
+#devices{
+   width: 55%;
+   margin-top: 75px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#devices img{
+    width: 600px;
+    height: 456px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.companies{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2em;
+
+}
