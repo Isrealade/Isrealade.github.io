@@ -36,6 +36,20 @@ button{
     border-radius: 30px;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
+nav a:hover{
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+}
+
+nav .socials a:hover{
+    background-color: hsl(171, 66%, 44%);
+}
+ 
+
 header{
     margin: 100px auto;
     text-align: center;
@@ -211,7 +225,7 @@ nav .footericon img{
     }
 
     .section1 .image{
-        width: 95%;
+        width: 90%;
         margin: auto;
     }
 
@@ -221,15 +235,6 @@ nav .footericon img{
         /* margin: auto; */
     }
 
-    /* .section1 .section1-texts{
-        justify-content: start;
-        align-self: center;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 3em;
-        /* padding-right: 50px; */
-    } */
 
     .section1 .section1-texts{
         width: 100%;
@@ -240,11 +245,6 @@ nav .footericon img{
         text-align: center;
     }
 
-        /* justify-content: center;
-        align-content: center;
-        align-items: center;
-        align-self: center; */
-
     .section-text{
         text-align: center;
     }
@@ -252,5 +252,70 @@ nav .footericon img{
     .section1 .section-text p{
         text-align: center;
         padding: 0;
+    }
+
+
+    #devices{
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    #devices img{
+        width: 100%;
+        height: 296px;
+    }
+
+    main .text:nth-child(2){
+        margin-top: 0;
+    }
+
+    .previews{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .previews .pre{
+        padding: 20px;
+    }
+
+    .companies{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 7em;
+    }
+
+    .beforefooter{
+        width: 90%;
+        margin: auto;
+    }
+
+    footer{
+        width: 100%;
+        padding: 50px auto;
+    }
+
+    nav{
+        width: 80%;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        text-align: center;
+    }
+
+    .faq{
+        margin-top: 20px;
+    }
+
+    .links p:nth-child(2){
+        margin-top: 1.5em;
+    }
+
+    .socials{
+        justify-content: center;
+        gap: 2em;
+        margin-top: 10px;
     }
 }
