@@ -46,7 +46,7 @@ nav a:hover{
 }
 
 nav .socials a:hover{
-    background-color: hsl(171, 66%, 44%);
+    color: hsl(171, 66%, 44%);
 }
  
 
@@ -186,6 +186,7 @@ nav .footericon img{
         width: 100%;
         /* background-image: url(./images/bg-header-mobile.png);
         background-repeat: no repeat; */
+        text-align: center;
     }
 
     header{
@@ -220,6 +221,7 @@ nav .footericon img{
     }
 
     .section1{
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -232,28 +234,32 @@ nav .footericon img{
     .section1 .image img{
         width: 100%;
         margin: auto;
-        /* margin: auto; */
     }
-
 
     .section1 .section1-texts{
-        width: 100%;
-        margin: auto;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         flex-direction: column;
-        padding: 0;
+        gap: 2em;
         text-align: center;
+        justify-content: center;
+        padding-right: 0;
     }
+
 
     .section-text{
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
     }
 
-    .section1 .section-text p{
-        text-align: center;
-        padding: 0;
+    .section1 .section1-texts .section-text p{
+        padding-right: 0;
+        /* margin-left: auto;
+        margin-right: auto; */
     }
-
 
     #devices{
         width: 90%;
