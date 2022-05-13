@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,12 +10,13 @@ body{
     background-repeat: no-repeat;
     background-color: hsl(0, 100%, 74%);
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
 }
 
 main{
     width: 70%;
     height: 50%;
-    margin: 50px auto;
+    margin: 140px auto auto auto;
 }
 
 .container{
@@ -26,7 +29,7 @@ main{
 
 .text{
     color: white;
-    justify-content: center;
+    align-self: center;
 }
 
 .text h1{
@@ -35,6 +38,10 @@ main{
 
 .text p{
     margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
 }
 
 .form{
@@ -66,6 +73,13 @@ form{
     border: 2px;
     padding: 30px 25px;
     /* box-shadow: 0px 2px 15px 0px black; */
+}
+
+form p{
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
 }
 
 form span{
@@ -102,7 +116,15 @@ button:hover{
     opacity: 80%;
 }
 
-@media (max-width: 660px){
+.attribution { font-size: 11px;
+    text-align: center; 
+    margin-top: 80px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 390px){
     body{
         background-image: url(./images/bg-intro-mobile.png);
         background-repeat: no-repeat;
@@ -112,6 +134,10 @@ button:hover{
     main{
         width: auto;
         margin: auto;
+    }
+
+    .text p{
+        padding: 0 10px
     }
 
     .container{
@@ -129,11 +155,15 @@ button:hover{
     }
 
     .tryit{
-        padding: 15px 110px;
+        padding: 15px 80px;
     }
 
     form{
         padding: 25px;
+    }
+
+    form p{
+        padding: 0 25px;
     }
 
     input{
@@ -142,5 +172,76 @@ button:hover{
 
     button{
         padding: 15px;
+    }
+
+    .attribution { font-size: 11px;
+        text-align: center; 
+        margin-top: 20px;
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
+
+@media (min-width: 400px) and (max-width: 480px){
+    body{
+        background-image: url(./images/bg-intro-mobile.png);
+        background-repeat: no-repeat;
+        /* background-color: ; */
+    }
+
+    main{
+        width: auto;
+        margin: auto;
+    }
+
+    h1{
+        padding: 0 50px;
+    }
+
+    .text p{
+        padding: 0 52px;
+    }
+
+    .container{
+        width: 90%;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 5em;
+        /* box-sizing: border-box; */
+    }
+
+    .text{
+        /* width: 100%; */
+        text-align: center;
+    }
+
+    .tryit{
+        padding: 15px 100px;
+    }
+
+    form{
+        padding: 25px;
+    }
+
+    form p{
+        padding: 0 25px;
+    }
+
+    input{
+        padding: 15px;
+    }
+
+    button{
+        padding: 15px;
+    }
+
+    .attribution { font-size: 11px;
+        text-align: center; 
+        margin-top: 20px;
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
     }
 }
