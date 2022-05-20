@@ -40,7 +40,7 @@ main{
 
 .texts h1{
     font-weight: 600;
-    padding-right: 190px;
+    padding-right: 100px;
     line-height: 1.7;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
@@ -109,7 +109,7 @@ button:hover{
     
     .texts{
         text-align: center;
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     
