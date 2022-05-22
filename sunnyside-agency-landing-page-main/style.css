@@ -90,6 +90,7 @@ header h1{
 .gallery .box2{
     background-image: url(images/desktop/image-transform.jpg);
     background-repeat: no-repeat;
+    /* background-size: 340px 309px; */
 }
 
 .gallery .box3{
